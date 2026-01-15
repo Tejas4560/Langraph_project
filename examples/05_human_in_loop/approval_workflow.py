@@ -314,7 +314,7 @@ def main():
     app = create_approval_workflow()
     
     # Test with a topic
-    topic = "The Benefits of Learning LangGraph for AI Development"
+    topic =input("Enter a content topic for the approval workflow: ")
     
     run_approval_workflow(app, topic)
     
