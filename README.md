@@ -55,20 +55,15 @@ Get your free Groq API key at: https://console.groq.com/
 
 ### 3. Launch the Application
 
-**Option 1: Use the launch script**
-```bash
-./run_react_ui.sh
-```
+You'll need two terminal windows to run both the backend and frontend:
 
-**Option 2: Manual launch (2 terminals)**
-
-Terminal 1 - Backend:
+**Terminal 1 - Backend:**
 ```bash
 cd web-ui/backend
 python main.py
 ```
 
-Terminal 2 - Frontend:
+**Terminal 2 - Frontend:**
 ```bash
 cd web-ui/frontend
 npm run dev
